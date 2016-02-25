@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "noLib": false,
+        "sourceMap": false,
+        "jsx": "react",
+        "declaration": false
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
