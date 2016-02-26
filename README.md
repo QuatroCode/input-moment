@@ -10,6 +10,12 @@ The icon is from [ionicons](http://ionicons.com/).
 npm i input-moment --save
 ```
 
+### Importing
+
+``` javascript
+import * as InputMoment from 'input-moment';
+```
+
 **Notice:** This module requires [moment](https://www.npmjs.com/package/moment) as a [peerDependency](https://docs.npmjs.com/files/package.json#peerdependencies).
 
 ### Demo
@@ -23,6 +29,7 @@ http://wangzuo.github.io/input-moment
   onSave={this.handleSave}
   prevMonthIcon='ion-ios-arrow-left'
   nextMonthIcon='ion-ios-arrow-right'
+  className="my-class"
 />
 ```
 Check [app.js](https://github.com/wangzuo/input-moment/blob/master/example/app.js) for a working example.
