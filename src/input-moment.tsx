@@ -16,9 +16,10 @@ module.exports = React.createClass({
   render() {
     var tab = this.state.tab;
     var m = this.props.moment;
+    let className = (this.props.className != null)? this.props.className : "";
 
     return (
-      <div className="m-input-moment">
+      <div className={`m-input-moment ${className}`}>
         <div className="options">
           <button type="button" className={cx('ion-calendar im-btn', {'is-active': tab === 0})} onClick={this.handleClickTab.bind(null, 0)}>
             Date
