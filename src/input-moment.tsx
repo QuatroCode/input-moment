@@ -44,9 +44,9 @@ module.exports = React.createClass({
           />
         </div>
 
-        <button type="button" className="im-btn btn-save ion-checkmark"
+        <button type="button" className="im-btn btn-save"
           onClick={this.handleSave}>
-          Save
+          <i className="fa fa-check" style={{ verticalAlign: '-2px' }}></i> OK
         </button>
       </div>
     );
